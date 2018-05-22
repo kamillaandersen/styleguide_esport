@@ -127,6 +127,13 @@ display:flex;
   width: 960px;
 }
 
+.text-area p {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px
+}
+
 .navpic {
   height: 110px;
 }
