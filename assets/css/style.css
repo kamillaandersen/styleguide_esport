@@ -142,11 +142,12 @@ display:flex;
   height: 49px;
 }
 
-<<<<<<< HEAD
+
 .conbutton {
   margin-left: 340px;
-=======
+
 /* Til textboxen */
+
 .box1 {
 background-color: #303030;
 height: 300px;
@@ -160,5 +161,5 @@ overflow: auto;
 .box1 p{
   color: white;
   text-align: center;
->>>>>>> b19832e225636a7732cf675809887b3288a3d2e1
+
 }
