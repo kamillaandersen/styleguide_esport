@@ -141,3 +141,19 @@ display:flex;
 .headerpic {
   height: 49px;
 }
+
+/* Til textboxen */
+.box1 {
+background-color: #303030;
+height: 300px;
+width: 350px;
+border: 2px solid;
+border-color: #116db6;
+margin: 50px;
+padding: 10px;
+overflow: auto;
+}
+.box1 p{
+  color: white;
+  text-align: center;
+}
