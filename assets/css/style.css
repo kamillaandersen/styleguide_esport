@@ -134,10 +134,14 @@ display:flex;
   padding-top: 10px
 }
 
-.navpic {
+.navpic, .conbutton {
   height: 110px;
 }
 
 .headerpic {
   height: 49px;
+}
+
+.conbutton {
+  margin-left: 340px;
 }
