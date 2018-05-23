@@ -149,31 +149,23 @@ display:flex;
 
 /* Til textboxen */
 
-.box1 {
-background-color: #303030;
-height: 300px;
-width: 350px;
-border: 2px solid;
-border-color: #116db6;
-margin: 50px;
-padding: 10px;
-overflow: auto;
-}
-.box1 p{
-  color: white;
-  text-align: center;
 
-}
 
 .box1 {
   background-color: #303030;
-  height: 300px;
-  width: 350px;
+  height: 500px;
+  width: 700px;
   border: 2px solid;
   border-color: #116db6;
-  margin: 50px;
-  padding: 10px;
+  margin-left: 150px;
+  margin-top: 30px;
   overflow: auto;
+}
+
+.box1 p {
+  color: white;
+  text-align: left;
+  margin-left: 20px;
 }
 
 /*Til colors */
