@@ -51,15 +51,76 @@
       <p>Here is the booking form used on our website</p>
       <img src="assets/images/form.png" alt="">
       <div class="contactcontainer">
-        <p>< h2>FORESPØRGSEL PÅ OPHOLD</h2>
-        < p>Er I interesseret i et ophold i de fedeste omgivelser? Så lav en forespørgsel på en bootcamp her! Et helt unikt esportscenter, lækre hytter samt fri adgang til badeland med spa, svømmehal, fitnesscenter, springcenter, køkkenfaciliter, idrætshaller samt kort afstand til indkøbsmuligheder. Så bliver det ikke nemmere! </p>
-        < p>Navn:< input placeholder="Kontaktpersons navn..." text="text" id="name"></p>
-        < p>By:< input placeholder="Postnummer og by..." text="text" id="city"></p>
-        < p>Telefon nummer:< input placeholder="Kontaktpersons mobil nummer" text="text" id="phone"></p>
-        < p>Mail:< input placeholder="Kontaktpersons mailadresse..." text="text" id="mail"></p>
-        < p>Dato på ophold:< input placeholder="Ønsket periode på jeres ophold..." text="text" id="date"></p>
-        < p>Antal personer:< input placeholder="Antallet af personer der deltager..." text="text" id="persons"></p>
-        < input class="addbutton" type="submit" value="SEND FORESPØRGSEL" onclick="addContact();"></p>
+        <h2>HTML</h2>
+        <div class="scrollbox">
+
+          <p>< h2>FORESPØRGSEL PÅ OPHOLD</h2>
+          <p>Er I interesseret i et ophold i de fedeste omgivelser? Så lav en forespørgsel på en bootcamp her! Et helt unikt esportscenter, lækre hytter samt fri adgang til badeland med spa, svømmehal, fitnesscenter, springcenter, køkkenfaciliter, idrætshaller samt kort afstand til indkøbsmuligheder. Så bliver det ikke nemmere! </p>
+          <p>Navn:< input placeholder="Kontaktpersons navn..." text="text" id="name"></p>
+          <p>By:< input placeholder="Postnummer og by..." text="text" id="city"></p>
+          <p>Telefon nummer:< input placeholder="Kontaktpersons mobil nummer" text="text" id="phone"></p>
+          <p>Mail:< input placeholder="Kontaktpersons mailadresse..." text="text" id="mail"></p>
+          <p>Dato på ophold:< input placeholder="Ønsket periode på jeres ophold..." text="text" id="date"></p>
+          <p>Antal personer:< input placeholder="Antallet af personer der deltager..." text="text" id="persons"></p>
+          <p>< input class="addbutton" type="submit" value="SEND FORESPØRGSEL" onclick="addContact();"></p>
+        </div>
+
+        <h2>Css</h2>
+        <div class="scrollbox2">
+          <p>.contactcontainer {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: center;
+  max-width: 800px;
+  color: white;
+  background-color: grey;
+  align-items: center;
+  margin: 30px 350px 30px;
+}</p>
+
+<p>.contactcontainer p {
+  margin: 20px;
+  max-width: 700px;
+  width: 100%;
+
+}</p>
+
+<p>.contactcontainer h2 {
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+}</p>
+
+
+<p>input[text=text] {
+  border: 0.5px solid grey;
+  padding: 12px 10px;
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+  align-items: center;
+  border-radius: 7px;
+  display: flex;
+  box-sizing: border-box;
+}</p>
+
+<p>input[type=submit] {
+  background-color: #282828;
+  color: white;
+  border: 1px solid #ff8c00;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px;
+  margin: 20px;
+  width: 230px;
+  font-size: 20px;
+  font-family: "Play", sans-serif;
+  display: flex;
+
+
+}</p>
+        </div>
 
     </div>
     </div>
